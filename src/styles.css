@@ -1,0 +1,98 @@
+:root {
+  --black: #111827;
+  --yellow: #f59e0b;
+  --footer-text: #f9fafb;
+  --movies-background: #fcd34d;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: auto;
+  height: 100%;
+  position: relative;
+}
+
+.hero {
+  background-color: var(--yellow);
+  padding: 1rem;
+  margin: auto;
+}
+
+.hero-header {
+  font-weight: bold;
+}
+
+.footer {
+  background-color: var(--black);
+  padding: 2rem 1rem;
+  margin: auto;
+}
+
+/* @media only screen and (max-width: 430px) {
+  .footer {
+    background-color: var(--footer);
+    padding: 2rem 1rem;
+    margin: auto;
+    margin-top: 12rem;
+  }
+} */
+.footer p {
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: auto;
+  color: var(--footer-text);
+}
+
+.footer-header {
+  font-weight: bolder;
+  font-size: larger;
+  color: var(--footer-text);
+}
+
+.container-center {
+  max-width: 650px;
+  padding: 1rem;
+  margin: auto;
+}
+
+.list-non-bullet {
+  list-style: none;
+  padding: 1rem;
+}
+
+.list-movies {
+  text-align: left;
+  padding: 0.5rem 1rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--movies-background);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.movie-elements {
+  padding: 1rem;
+}
+
+.movie-name {
+  padding: 1rem;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.genre-section {
+  display: inline;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: var(--black);
+  color: var(--yellow);
+  font-weight: bolder;
+  font-size: large;
+}
