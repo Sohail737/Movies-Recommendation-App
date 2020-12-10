@@ -32,11 +32,15 @@ const moviesList = {
   Drama: [
     {
       name: "Swades",
-      rating: "4/5"
+      rating: "4/5",
+      summary:
+        "A successful Indian scientist returns to an Indian village to take his nanny to America with him and in the process rediscovers his roots."
     },
     {
       name: "Rockstar ",
-      rating: "4/5"
+      rating: "4/5",
+      summary:
+        "Janardhan Jakhar chases his dreams of becoming a big Rock star, during which he falls in love with Heer."
     },
     {
       name: "Sarkar",
@@ -90,7 +94,9 @@ export default function App() {
     <div className="App">
       <body>
         <header class="hero">
-          <h1 className="hero-header">🎥 Movies Database</h1>
+          <h1 className="hero-header">
+            <span role="img">🎥</span> Movies Database
+          </h1>
         </header>
         <div className="container-center">
           {Object.keys(moviesList).map((genre) => {
