@@ -125,7 +125,7 @@ export default function App() {
 
         <footer className="footer">
           <div className="footer-header">About</div>
-          <p>Check out our Movies recommendtion by different genres</p>
+          <p>Check out our Movies recommendation by different genres</p>
         </footer>
       </body>
     </div>
