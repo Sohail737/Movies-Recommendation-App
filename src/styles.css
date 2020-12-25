@@ -12,8 +12,6 @@
 
 body {
   margin: auto;
-  height: 100%;
-  position: relative;
 }
 
 .hero {
@@ -29,7 +27,6 @@ body {
 .footer {
   background-color: var(--black);
   padding: 2rem 1rem;
-  margin: auto;
 }
 
 /* @media only screen and (max-width: 430px) {
@@ -43,7 +40,6 @@ body {
 .footer p {
   text-align: center;
   padding: 1rem 2rem;
-  margin: auto;
   color: var(--footer-text);
 }
 
@@ -85,7 +81,6 @@ body {
 }
 
 .genre-section {
-  display: inline;
   padding: 0.5rem 1rem;
   margin: 1rem;
   cursor: pointer;
